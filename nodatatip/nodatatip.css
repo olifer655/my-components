@@ -1,0 +1,38 @@
+.nodatatip {
+  text-align: center;
+
+  img {
+    width: 50%;
+  }
+
+  h3 {
+    margin: 25px 0 20px;
+    font-size: 34px;
+    color: #6a6a6a;
+    font-weight: normal;
+  }
+}
+
+.nodatatip-tiptext {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 23px;
+  color: #999;
+}
+
+.button {
+  width: 240px;
+  display: inline-block;
+  padding: 20px 10px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+  background-color: #56d176;
+  text-decoration: none;
+
+  &:active {
+    opacity: .8;
+  }
+}
