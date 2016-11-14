@@ -5,7 +5,7 @@
  */
 const compareVersion = (compare, beCompared) => {
  if (!beCompared) {
-   beCompared = (window.navigator.userAgent.match(/Eleme\/([\d|\.]+)/i) || [])[1]
+   beCompared = (window.navigator.userAgent.match(/XXX\/([\d|\.]+)/i) || [])[1]
    if (!beCompared) return false
  }
 
